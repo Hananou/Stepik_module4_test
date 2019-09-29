@@ -13,5 +13,9 @@ class LoginPageLocators():
 #register_form
     REGISTER_FORM = (By.CSS_SELECTOR, "#register_form")
     REGISTRATION_EMAIL = (By.CSS_SELECTOR, "#id_registration-email")
-    REGISTRATION_EMAIL2 = (By.CSS_SELECTOR, "#id_registration-password2")
+    REGISTRATION_PASSWORD1 = (By.CSS_SELECTOR, "#id_registration-password1")
+    REGISTRATION_PASSWORD2 = (By.CSS_SELECTOR, "#id_registration-password2")
     REGISTRATION_SUBMIT = (By.CSS_SELECTOR, "#register_form > button")
+
+class ProductPageLocators():
+    PRODUCT_LINK = (By.CSS_SELECTOR, ".btn-add-to-basket")
