@@ -8,7 +8,7 @@ class LoginPageLocators():
     LOGIN_FORM = (By.CSS_SELECTOR, "#login_form")
     LOGIN_USERNAME = (By.CSS_SELECTOR, "#id_login-username")
     LOGIN_PASSWORD = (By.CSS_SELECTOR, "#id_login-password")
-    PASSWORD_RESET = (By.CSS_SELECTOR, "[href='/ru/password-reset/']")
+    PASSWORD_RESET = (By.CSS_SELECTOR, "#login_form > p > a")
     LOGIN_SUBMIT = (By.CSS_SELECTOR, "#login_form > button")
 #register_form
     REGISTER_FORM = (By.CSS_SELECTOR, "#register_form")
